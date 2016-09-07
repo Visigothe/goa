@@ -12,11 +12,13 @@ gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
+# HTML Preprocessor
+gem 'haml'
 # Styling
 gem 'bourbon'
 gem 'neat'
 gem 'bitters'
-gem "refills", group: :development
+gem 'refills', group: :development
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
