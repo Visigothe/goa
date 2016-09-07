@@ -60,4 +60,5 @@ end
 group :test do
   gem 'database_cleaner'
   gem 'minitest-reporters'
+  gem 'rails-controller-testing'
 end
