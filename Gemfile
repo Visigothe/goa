@@ -19,7 +19,8 @@ gem 'bourbon'
 gem 'neat'
 gem 'bitters'
 gem 'refills', group: :development
-
+# Static pages
+gem 'high_voltage'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
@@ -36,7 +37,6 @@ gem 'figaro'
 # gem 'capistrano'
 # gem 'capistrano-rails'
 # gem 'capistrano-passenger'
-
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
