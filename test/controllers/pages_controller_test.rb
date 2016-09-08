@@ -6,4 +6,10 @@ class HighVoltage::TestPagesController < ActionDispatch::IntegrationTest
     assert_response :success
     assert_template :home
   end
+
+  test 'GET components' do
+    get '/components'
+    assert_response :success
+    assert_template :components
+  end
 end
